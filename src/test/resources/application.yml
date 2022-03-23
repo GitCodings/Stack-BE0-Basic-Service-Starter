@@ -1,0 +1,5 @@
+basic:
+  greeting-message: >
+    Hello there user! This is a test message!
+    If the configuration properties are set up
+    correctly you should be able to see this!

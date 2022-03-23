@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: BasicService
+
+server:
+  address: 0.0.0.0
+  port: 8080
+  error:
+    include-exception: true
+    include-message: always
+
+logging:
+  file:
+    name: ./BasicService.log
+
+basic:
+  greeting-message: "Hello there client!"
