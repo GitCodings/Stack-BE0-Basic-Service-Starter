@@ -69,7 +69,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, " "))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_IS_EMPTY))
-                    .andExpect(jsonPath("message").doesNotHaveJsonPath());
+                    .andExpect(jsonPath("reversed").doesNotHaveJsonPath());
     }
 
     @Test
@@ -79,7 +79,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "test"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_SUCCESSFULLY_REVERSED))
-                    .andExpect(jsonPath("message").value("tset"));
+                    .andExpect(jsonPath("reversed").value("tset"));
     }
 
     @Test
@@ -89,7 +89,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "TSET"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_SUCCESSFULLY_REVERSED))
-                    .andExpect(jsonPath("message").value("TEST"));
+                    .andExpect(jsonPath("reversed").value("TEST"));
     }
 
     @Test
@@ -99,7 +99,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "TeSt"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_SUCCESSFULLY_REVERSED))
-                    .andExpect(jsonPath("message").value("tSeT"));
+                    .andExpect(jsonPath("reversed").value("tSeT"));
     }
 
     @Test
@@ -109,7 +109,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "Te s t"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_SUCCESSFULLY_REVERSED))
-                    .andExpect(jsonPath("message").value("t s eT"));
+                    .andExpect(jsonPath("reversed").value("t s eT"));
     }
 
     @Test
@@ -119,7 +119,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "1234"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_SUCCESSFULLY_REVERSED))
-                    .andExpect(jsonPath("message").value("4321"));
+                    .andExpect(jsonPath("reversed").value("4321"));
     }
 
     @Test
@@ -129,7 +129,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "_A123b__"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_SUCCESSFULLY_REVERSED))
-                    .andExpect(jsonPath("message").value("__b321A_"));
+                    .andExpect(jsonPath("reversed").value("__b321A_"));
     }
 
     @Test
@@ -139,7 +139,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "!ABC!"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_CONTAINS_INVALID_CHARACTERS))
-                    .andExpect(jsonPath("message").doesNotHaveJsonPath());
+                    .andExpect(jsonPath("reversed").doesNotHaveJsonPath());
     }
 
     @Test
@@ -149,7 +149,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "AB!CD"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_CONTAINS_INVALID_CHARACTERS))
-                    .andExpect(jsonPath("message").doesNotHaveJsonPath());
+                    .andExpect(jsonPath("reversed").doesNotHaveJsonPath());
     }
 
     @Test
@@ -159,7 +159,7 @@ public class BasicServiceTest
         this.mockMvc.perform(get(REVERSE_PATH, "!!!!"))
                     .andDo(print())
                     .andExpectAll(isResult(BasicResults.STRING_CONTAINS_INVALID_CHARACTERS))
-                    .andExpect(jsonPath("message").doesNotHaveJsonPath());
+                    .andExpect(jsonPath("reversed").doesNotHaveJsonPath());
     }
 
     // Math Tests
