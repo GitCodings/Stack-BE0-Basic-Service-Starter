@@ -1,4 +1,4 @@
-# CS122B Backend 0 - The Basic Service
+# CS122B Homework 2 - The Basic Service
 
 #### [Config](#config)
 
@@ -18,7 +18,7 @@ spring:
 
 server:
   address: 0.0.0.0
-  port: 8080
+  port: 10020
   error: # These settings are for debugging
     include-exception: true
     include-message: always 

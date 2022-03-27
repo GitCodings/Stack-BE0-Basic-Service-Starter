@@ -17,8 +17,8 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>cs122b-be0-basic-service-starter</artifactId>
-    <name>CS122B Backend 0: Basic Service Starter</name>
+    <artifactId>cs122b-hw2-basic-service-starter</artifactId>
+    <name>CS122B Homework 2: Basic Service Starter</name>
 
     <dependencies>
         <dependency>
