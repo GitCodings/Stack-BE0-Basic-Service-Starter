@@ -212,7 +212,7 @@ Takes three integers (numX, numY, numZ) in the form of the request JSON body des
 
 ### Path
 ```http 
-GET /math
+POST /math
 ```
 
 ### API
