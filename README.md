@@ -1,6 +1,6 @@
 # CS122B Homework 2 - The Basic Service
 
-#### [Config](#config)
+#### [Application Settings](#application-settings)
 
 #### [Endpoints](#endpoints)
 
@@ -8,7 +8,11 @@
 2. [GET: Reverse](#reverse)
 3. [POST: Math](#math)
 
-## Config
+## Application Settings
+
+Spring Boot can has a large number of settings that can be set with a file called `application.yml`. \
+This file is already provided for you and is placed here for reference.
+
 ##### `application.yml`
 
 ```yml
