@@ -14,7 +14,7 @@
     <parent>
         <groupId>com.github.klefstad-teaching</groupId>
         <artifactId>CS122B-Parent</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <artifactId>cs122b-hw2-basic-service-starter</artifactId>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>com.github.klefstad-teaching</groupId>
             <artifactId>CS122B-Core</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
 
         <dependency>
