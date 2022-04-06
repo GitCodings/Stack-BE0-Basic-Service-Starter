@@ -153,7 +153,7 @@ GET /reverse/{message}
     <tr>
       <td>message</td>
       <td><code>String</code></td>
-      <td>(Required) Message to reverse (should only contain alphanumeric characters, spaces, and underscores)</td>
+      <td>(Required) Message to reverse. Should only contain alphanumeric characters, spaces, and underscores. Must also never be 'blank' as in only white spaces: " "</td>
     </tr>
     <tr><td colspan="3" ></td></tr>
     <tr></tr>
