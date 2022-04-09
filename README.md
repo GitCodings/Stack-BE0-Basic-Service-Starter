@@ -43,8 +43,8 @@ basic:
 ## Notes
 
 ### Order of Validation
-All <code>❗ 400: Bad Request</code> Results must be checked first, and returned before any other action is made. \
-The order of the checks within <code>❗ 400: Bad Request</code> is not tested as each Result is tested individually.
+All `❗ 400: Bad Request` Results must be checked first, and returned before any other action is made. \
+The order of the checks within `❗ 400: Bad Request` is not tested as each Result is tested individually.
 
 ### JsonInclude
 In the case of non-successful results, where values are expected, the values should not be included, for example.
@@ -57,7 +57,7 @@ In the case of non-successful results, where values are expected, the values sho
    "value": null 
 }
 ```
-the <code>value</code> key should not be included: 
+the `value` key should not be included: 
 ```json
 {
    "result": {
@@ -66,12 +66,12 @@ the <code>value</code> key should not be included:
    }
 }
 ```
-This is done by insuring that all <code>null</code> values are dropped by either:
-- Having your Model extend <code>ResponseModel<Model></code>, or
-- Putting the <code>@JsonInclude(JsonInclude.Include.NON_NULL)</code> on your Model class
+This is done by insuring that all `null` values are dropped by either:
+- Having your Model extend `ResponseModel<Model>`, or
+- Putting the `@JsonInclude(JsonInclude.Include.NON_NULL)` on your Model class
   
 ### Result
-All <code>Result</code> objects are available as static constants inside the <code>com.github.klefstad_teaching.cs122b.core.result.BasicResults</code> class.
+All `Result` objects are available as static constants inside of the `com.github.klefstad_teaching.cs122b.core.result.BasicResults` class.
 These can be used rather than creating your own.
 
 # Endpoints
