@@ -2,6 +2,11 @@
 
 #### [Application Settings](#application-settings)
 
+#### [Notes](#notes)
+ - [Order of Validation](#order-of-validation)
+ - [JsonInclude](#jsoninclude)
+ - [Result](#result)
+
 #### [Endpoints](#endpoints)
 
 1. [GET: Hello](#hello)
@@ -35,7 +40,7 @@ basic:
   greeting-message: "Hello there client!"
 ``` 
 
-# Endpoints
+## Notes
 
 ### Order of Validation
 All <code>❗ 400: Bad Request</code> Results must be checked first, and returned before any other action is made. \
@@ -68,6 +73,8 @@ This is done by insuring that all <code>null</code> values are dropped by either
 ### Result
 All <code>Result</code> objects are available as static constants inside the <code>com.github.klefstad_teaching.cs122b.core.result.BasicResults</code> class.
 These can be used rather than creating your own.
+
+# Endpoints
 
 ## Hello
 Endpoint to greet the caller with a simple greeting. It should always return a status of 200 with the proper `greetingMessage` found in the config under: 
