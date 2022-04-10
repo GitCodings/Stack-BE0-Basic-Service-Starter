@@ -1,10 +1,10 @@
 # CS122B Homework 2 - The Basic Service
 
 #### [Application](#application)
+ - [pom.xml](#pomxml)
  - [application.yml](#applicationyml)
  - [Resources](#resources)
  - [Tests](#tests)
- - [pom.xml](#pomxml)
 
 #### [Notes](#notes)
  - [Order of Validation](#order-of-validation)
@@ -20,6 +20,12 @@
 ## Application
 
 Our application depends on a lot of files and resources to be able to run correctly. These files have been provided for you and are listed here for your reference. These files should **NEVER** be modified and must be left **AS IS**.
+
+### pom.xml
+
+Maven gets all its settings from a file called `pom.xml`. This file determines the dependencies we will use in our project as well as the plugins we use for compiling, testing, building, ect..
+
+ - [pom.xml](pom.xml)
 
 ### application.yml
 
@@ -40,12 +46,6 @@ There are two folders in this project that contain resources, and application se
 There is a Single class that contain all of our test cases: 
 
  - [BasicServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/basic/BasicServiceTest.java)
-
-### pom.xml
-
-Maven gets all its settings from a file called `pom.xml`. This file determines the dependencies we will use in our project as well as the plugins we use for compiling, testing, building, ect..
-
- - [pom.xml](pom.xml)
 
 
 ## Notes
