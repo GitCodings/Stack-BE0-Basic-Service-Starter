@@ -19,11 +19,11 @@
 
 ## Application
 
+Our application depends on a lot of files and resources to be able to run correctly. These files have been provided for you and are listed here for your refrence. These files should **NEVER** be modified and must be left **AS IS**.
+
 ### application.yml
 
 Spring Boot can has a large number of settings that can be set with a file called `application.yml`. We have already created this file for you and have filled it with some settings. There is a file for the main application as well as one for the tests. 
-
-**These file should NEVER be modified**
 
  - [Main application.yml](/src/main/resources/application.yml)
  - [Test application.yml](/src/test/resources/application.yml)
@@ -32,8 +32,6 @@ Spring Boot can has a large number of settings that can be set with a file calle
 
 There are two folders in this project that contain resources, and application settings, as well as files required for the tests.
 
-**These files should NEVER be modified**
-
  - [Main Resources](/src/main/resources)
  - [Test Resources](/src/test/resources)
 
@@ -41,15 +39,11 @@ There are two folders in this project that contain resources, and application se
 
 There is a Single class that contain all of our test cases: 
 
-**This file should NEVER be modified**
-
  - [BasicServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/basic/BasicServiceTest.java)
 
 ### pom.xml
 
 Maven gets all its settings from a file called `pom.xml`. This file determines the dependencies we will use in our project as well as the plugins we use for compiling, testing, building, ect..
-
-**This file should NEVER be modified**
 
  - [pom.xml](pom.xml)
 
