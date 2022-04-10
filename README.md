@@ -47,7 +47,6 @@ There is a Single class that contain all of our test cases:
 
  - [BasicServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/basic/BasicServiceTest.java)
 
-
 ## Notes
 
 ### Order of Validation
