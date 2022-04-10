@@ -19,11 +19,11 @@
 
 ## Application
 
-Our application depends on a lot of files and resources to be able to run correctly. These files have been provided for you and are listed here for your refrence. These files should **NEVER** be modified and must be left **AS IS**.
+Our application depends on a lot of files and resources to be able to run correctly. These files have been provided for you and are listed here for your reference. These files should **NEVER** be modified and must be left **AS IS**.
 
 ### application.yml
 
-Spring Boot can has a large number of settings that can be set with a file called `application.yml`. We have already created this file for you and have filled it with some settings. There is a file for the main application as well as one for the tests. 
+Spring Boot has a large number of settings that can be set with a file called `application.yml`. We have already created this file for you and have filled it with some settings. There is a file for the main application as well as one for the tests. 
 
  - [Main application.yml](/src/main/resources/application.yml)
  - [Test application.yml](/src/test/resources/application.yml)
