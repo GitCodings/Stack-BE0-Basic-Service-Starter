@@ -1,6 +1,9 @@
 # CS122B Homework 2 - The Basic Service
 
-#### [Application Settings](#application-settings)
+#### [Application](#application)
+ - [application.yml](#applicationyml)
+ - [Resources](#Resources)
+ - [Tests](#Tests)
 
 #### [Notes](#notes)
  - [Order of Validation](#order-of-validation)
@@ -13,32 +16,33 @@
 2. [GET: Reverse](#reverse)
 3. [POST: Math](#math)
 
-## Application Settings
+## Application
 
-Spring Boot can has a large number of settings that can be set with a file called `application.yml`. \
-This file is already provided for you and is placed here for reference.
+### application.yml
 
-##### `application.yml`
+Spring Boot can has a large number of settings that can be set with a file called `application.yml`.
 
-```yml
-spring:
-  application:
-    name: BasicService
+**These file should NEVER be modified**
 
-server:
-  address: 0.0.0.0
-  port: 10020
-  error: # These settings are for debugging
-    include-exception: true
-    include-message: always 
+ - [Main application.yml](/src/main/resources/application.yml)
+ - [Test application.yml](/src/test/resources/application.yml)
 
-logging:
-  file:
-    name: ./BasicService.log
+### Resources
 
-basic:
-  greeting-message: "Hello there client!"
-``` 
+There are two folders in this project that contain resources, and application settings
+
+**These file should NEVER be modified**
+
+ - [Main Resources](/src/main/resources)
+ - [Test Resources](/src/test/resources)
+
+### Tests
+
+There is a Single class that containt all of our test cases: 
+
+**This file should NEVER be modified**
+
+ - [BasicServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/basic/BasicServiceTest.java)
 
 ## Notes
 
