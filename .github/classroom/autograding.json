@@ -1,0 +1,264 @@
+{
+  "tests": [
+    {
+      "name": "applicationLoads Test",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#applicationLoads test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "basicHelloSuccess Test",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#basicHelloSuccess test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageEmpty Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageEmpty test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageLowerCase Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageLowerCase test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageUpperCase Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageUpperCase test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageMix Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageMix test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageSpace Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageSpace test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageNumber Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageNumber test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageUnderScore Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageUnderScore test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageInvalidEdge Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageInvalidEdge test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageInvalidMid Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageInvalidMid test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "reverseMessageInvalidAll Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#reverseMessageInvalidAll test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "basicMathSuccess Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#basicMathSuccess test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "mathEdgeX1 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathEdgeX1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "mathEdgeX2 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathEdgeX2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "mathEdgeY1 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathEdgeY1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathEdgeY2 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathEdgeY2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathEdgeZ1 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathEdgeZ1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathEdgeZ2 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathEdgeZ2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathPastLimitX1 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathPastLimitX1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathPastLimitX2 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathPastLimitX2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathPastLimitY1 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathPastLimitY1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathPastLimitY2 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathPastLimitY2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathPastLimitZ1 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathPastLimitZ1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "mathPastLimitZ2 Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#mathPastLimitZ2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "basicMathMissingIntegers Tests",
+      "setup": "",
+      "run": "mvn -Dtest=BasicServiceTest#basicMathMissingIntegers test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
