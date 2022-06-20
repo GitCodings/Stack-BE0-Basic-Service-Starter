@@ -214,7 +214,7 @@ reversed: String (nullable)</pre></td>
     <tr>
       <td><code>❗ 400: Bad Request</code></td>
       <td>21</td>
-      <td>String is empty</td>
+      <td>String is blank</td>
     </tr>
     <tr></tr>
     <tr>
