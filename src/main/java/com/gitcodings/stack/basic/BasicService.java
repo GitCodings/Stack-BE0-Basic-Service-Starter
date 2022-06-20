@@ -1,7 +1,7 @@
-package com.github.klefstad_teaching.cs122b.basic;
+package com.gitcodings.stack.basic;
 
-import com.github.klefstad_teaching.cs122b.basic.config.BasicServiceConfig;
-import com.github.klefstad_teaching.cs122b.core.spring.StackService;
+import com.gitcodings.stack.basic.config.BasicServiceConfig;
+import com.gitcodings.stack.core.spring.StackService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

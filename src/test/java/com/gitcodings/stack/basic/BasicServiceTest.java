@@ -1,7 +1,7 @@
-package com.github.klefstad_teaching.cs122b.basic;
+package com.gitcodings.stack.basic;
 
-import com.github.klefstad_teaching.cs122b.core.result.BasicResults;
-import com.github.klefstad_teaching.cs122b.core.result.Result;
+import com.gitcodings.stack.core.result.BasicResults;
+import com.gitcodings.stack.core.result.Result;
 import net.minidev.json.JSONObject;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -68,7 +68,7 @@ public class BasicServiceTest
     {
         this.mockMvc.perform(get(REVERSE_PATH, " "))
                     .andDo(print())
-                    .andExpectAll(isResult(BasicResults.STRING_IS_EMPTY))
+                    .andExpectAll(isResult(BasicResults.STRING_IS_BLANK))
                     .andExpect(jsonPath("reversed").doesNotHaveJsonPath());
     }
 

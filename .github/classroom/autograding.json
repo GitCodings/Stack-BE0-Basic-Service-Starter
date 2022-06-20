@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "applicationLoads Test",
+      "name": "Environment setup",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#applicationLoads test",
       "input": "",
@@ -11,7 +11,7 @@
       "points": 3
     },
     {
-      "name": "basicHelloSuccess Test",
+      "name": "basicHelloSuccess",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#basicHelloSuccess test",
       "input": "",
@@ -21,7 +21,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageEmpty Tests",
+      "name": "reverseMessageEmpty",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageEmpty test",
       "input": "",
@@ -31,7 +31,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageLowerCase Tests",
+      "name": "reverseMessageLowerCase",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageLowerCase test",
       "input": "",
@@ -41,7 +41,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageUpperCase Tests",
+      "name": "reverseMessageUpperCase",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageUpperCase test",
       "input": "",
@@ -51,7 +51,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageMix Tests",
+      "name": "reverseMessageMix",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageMix test",
       "input": "",
@@ -61,7 +61,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageSpace Tests",
+      "name": "reverseMessageSpace",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageSpace test",
       "input": "",
@@ -71,7 +71,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageNumber Tests",
+      "name": "reverseMessageNumber",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageNumber test",
       "input": "",
@@ -81,7 +81,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageUnderScore Tests",
+      "name": "reverseMessageUnderScore",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageUnderScore test",
       "input": "",
@@ -91,7 +91,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageInvalidEdge Tests",
+      "name": "reverseMessageInvalidEdge",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageInvalidEdge test",
       "input": "",
@@ -101,7 +101,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageInvalidMid Tests",
+      "name": "reverseMessageInvalidMid",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageInvalidMid test",
       "input": "",
@@ -111,7 +111,7 @@
       "points": 3
     },
     {
-      "name": "reverseMessageInvalidAll Tests",
+      "name": "reverseMessageInvalidAll",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#reverseMessageInvalidAll test",
       "input": "",
@@ -121,7 +121,7 @@
       "points": 3
     },
     {
-      "name": "basicMathSuccess Tests",
+      "name": "basicMathSuccess",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#basicMathSuccess test",
       "input": "",
@@ -131,7 +131,7 @@
       "points": 3
     },
     {
-      "name": "mathEdgeX1 Tests",
+      "name": "mathEdgeX1",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathEdgeX1 test",
       "input": "",
@@ -141,7 +141,7 @@
       "points": 3
     },
     {
-      "name": "mathEdgeX2 Tests",
+      "name": "mathEdgeX2",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathEdgeX2 test",
       "input": "",
@@ -151,7 +151,7 @@
       "points": 3
     },
     {
-      "name": "mathEdgeY1 Tests",
+      "name": "mathEdgeY1",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathEdgeY1 test",
       "input": "",
@@ -161,7 +161,7 @@
       "points": 5
     },
     {
-      "name": "mathEdgeY2 Tests",
+      "name": "mathEdgeY2",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathEdgeY2 test",
       "input": "",
@@ -171,7 +171,7 @@
       "points": 5
     },
     {
-      "name": "mathEdgeZ1 Tests",
+      "name": "mathEdgeZ1",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathEdgeZ1 test",
       "input": "",
@@ -181,7 +181,7 @@
       "points": 5
     },
     {
-      "name": "mathEdgeZ2 Tests",
+      "name": "mathEdgeZ2",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathEdgeZ2 test",
       "input": "",
@@ -191,7 +191,7 @@
       "points": 5
     },
     {
-      "name": "mathPastLimitX1 Tests",
+      "name": "mathPastLimitX1",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathPastLimitX1 test",
       "input": "",
@@ -201,7 +201,7 @@
       "points": 5
     },
     {
-      "name": "mathPastLimitX2 Tests",
+      "name": "mathPastLimitX2",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathPastLimitX2 test",
       "input": "",
@@ -211,7 +211,7 @@
       "points": 5
     },
     {
-      "name": "mathPastLimitY1 Tests",
+      "name": "mathPastLimitY1",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathPastLimitY1 test",
       "input": "",
@@ -221,7 +221,7 @@
       "points": 5
     },
     {
-      "name": "mathPastLimitY2 Tests",
+      "name": "mathPastLimitY2",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathPastLimitY2 test",
       "input": "",
@@ -231,7 +231,7 @@
       "points": 5
     },
     {
-      "name": "mathPastLimitZ1 Tests",
+      "name": "mathPastLimitZ1",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathPastLimitZ1 test",
       "input": "",
@@ -241,7 +241,7 @@
       "points": 5
     },
     {
-      "name": "mathPastLimitZ2 Tests",
+      "name": "mathPastLimitZ2",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#mathPastLimitZ2 test",
       "input": "",
@@ -251,7 +251,7 @@
       "points": 5
     },
     {
-      "name": "basicMathMissingIntegers Tests",
+      "name": "basicMathMissingIntegers",
       "setup": "",
       "run": "mvn -Dtest=BasicServiceTest#basicMathMissingIntegers test",
       "input": "",

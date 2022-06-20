@@ -1,11 +1,23 @@
-    name: GitHub Classroom Workflow
+name: GitHub Classroom Workflow
 
-    on: [push]
+on: [push]
 
-    jobs:
-      build:
-        name: Autograding
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v2
-          - uses: education/autograding@v1
+jobs:
+  build:
+    name: Autograding
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Checkout Tests
+        run: |
+          wget https://raw.githubusercontent.com/GitCodings/Stack-BE0-Basic-Service-Starter/main/pom.xml -O pom.xml;
+          wget https://raw.githubusercontent.com/GitCodings/Stack-BE0-Basic-Service-Starter/main/src/test/java/com/gitcodings/stack/basic/BasicServiceTest.java -O src/test/java/com/gitcodings/stack/basic/BasicServiceTest.java;
+          wget https://raw.githubusercontent.com/GitCodings/Stack-BE0-Basic-Service-Starter/main/src/test/resources/application.yml -O src/test/resources/application.yml;
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+      - name: Autograder
+        uses: education/autograding@v1

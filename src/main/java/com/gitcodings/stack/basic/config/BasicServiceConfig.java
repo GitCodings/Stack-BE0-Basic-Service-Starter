@@ -1,4 +1,4 @@
-package com.github.klefstad_teaching.cs122b.basic.config;
+package com.gitcodings.stack.basic.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConstructorBinding;

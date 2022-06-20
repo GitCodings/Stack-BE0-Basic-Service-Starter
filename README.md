@@ -1,4 +1,4 @@
-# CS122B Homework 2 - The Basic Service
+# Stack Backend 0 - The Basic Service
 
 #### [Application](#application)
  - [pom.xml](#pomxml)
@@ -45,7 +45,7 @@ There are two folders in this project that contain resources, and application se
 
 There is a Single class that contain all of our test cases: 
 
- - [BasicServiceTest](/src/test/java/com/github/klefstad_teaching/cs122b/basic/BasicServiceTest.java)
+ - [BasicServiceTest](/src/test/java/com/gitcodings/stack/basic/BasicServiceTest.java)
 
 ## Notes
 
@@ -78,7 +78,7 @@ This is done by insuring that all `null` values are dropped by either:
 - Putting the `@JsonInclude(JsonInclude.Include.NON_NULL)` on your Model class
   
 ### Result
-All `Result` objects are available as static constants inside of the `com.github.klefstad_teaching.cs122b.core.result.BasicResults` class.
+All `Result` objects are available as static constants inside of the `com.gitcodings.stack.core.result.BasicResults` class.
 These can be used rather than creating your own.
 
 # Endpoints
